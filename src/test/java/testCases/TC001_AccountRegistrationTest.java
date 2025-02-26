@@ -21,6 +21,8 @@ public class TC001_AccountRegistrationTest extends BaseClass{
 		logger.info("***** Clicked on Registered link *****");
 		
 		
+		// add 
+		
 		
 		AccountRegistrationPage regpage = new AccountRegistrationPage(driver);
 		logger.info("***** Providing customer Details *****");
