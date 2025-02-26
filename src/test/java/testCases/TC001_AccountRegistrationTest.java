@@ -20,6 +20,8 @@ public class TC001_AccountRegistrationTest extends BaseClass{
 		hp.clickRegister();
 		logger.info("***** Clicked on Registered link *****");
 		
+		
+		
 		AccountRegistrationPage regpage = new AccountRegistrationPage(driver);
 		logger.info("***** Providing customer Details *****");
 		regpage.setFirstName(randomString().toUpperCase());
