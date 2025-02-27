@@ -8,7 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Flipkart {
- //name , link // price for every phone
+ //name , link // price for every phone    //
 	public static void main(String[] args) {
 		
 		WebDriver driver = new ChromeDriver();
